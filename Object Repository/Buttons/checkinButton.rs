@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkinButton</name>
+   <tag></tag>
+   <elementGuidId>626e2e09-f16a-4392-95c7-afd9382f0a0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img</value>
+   </webElementProperties>
+</WebElementEntity>

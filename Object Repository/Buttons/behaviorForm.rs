@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>behaviorForm</name>
+   <tag></tag>
+   <elementGuidId>84584527-b3d5-4650-963f-ed116592d223</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[6]/div[2]/div[2]/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[6]/div[2]/div[2]/b</value>
+   </webElementProperties>
+</WebElementEntity>

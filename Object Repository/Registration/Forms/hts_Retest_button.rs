@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hts_Retest_button</name>
+   <tag></tag>
+   <elementGuidId>a9e7c9df-1f8c-4e5f-bbe2-3dd3001bd91c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[5]/div[2]/div[1]/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[5]/div[2]/div[1]/b</value>
+   </webElementProperties>
+</WebElementEntity>

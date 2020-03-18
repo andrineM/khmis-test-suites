@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckIn_Date</name>
+   <tag></tag>
+   <elementGuidId>f2c1dddb-21ef-4fd0-bc94-f6fcae1569b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img</value>
+   </webElementProperties>
+</WebElementEntity>

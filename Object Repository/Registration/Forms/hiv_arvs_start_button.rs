@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hiv_arvs_start_button</name>
+   <tag></tag>
+   <elementGuidId>892ac053-bda0-4c25-bbe9-54b83a0d0762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[5]/div[2]/div[2]/button/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[5]/div[2]/div[2]/button/img</value>
+   </webElementProperties>
+</WebElementEntity>

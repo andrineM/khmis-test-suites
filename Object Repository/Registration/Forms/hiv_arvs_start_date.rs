@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hiv_arvs_start_date</name>
+   <tag></tag>
+   <elementGuidId>e6cfabdc-cf5f-4386-bd2a-ab93e1a89e9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;hasDatepicker&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;hasDatepicker&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New_clientScenario" time="91.345" tests="1" failures="1" errors="0">
+   <testsuite name="New_clientScenario" tests="1" failures="1" errors="0" time="91.345" timestamp="2020-03-17 14:28:26" hostname="user - DESKTOP-VS7DR70" id="Test Suites/New_clientScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Prep_Kenyaemr\\Reports\\20200317_142815\\New_clientScenario\\20200317_142815"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Prep_Kenyaemr\\Reports\\20200317_142815\\New_clientScenario\\20200317_142815\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-VS7DR70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Firefox 74.0"/>
+         <property name="hostAddress" value="169.254.115.233"/>
+         <property name="sessionId" value="5acc52cd-c426-4e58-a923-7ddb7b39707b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New_Client" time="91.139" classname="Test Cases/New_Client" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/Forms/CheckinButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at New_Client.run(New_Client:170)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584444505016.run(TempTestSuite1584444505016.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '169.254.115.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17252, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5acc52cd-c426-4e58-a923-7ddb7b39707b
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-03-17 14:28:26 - [TEST_CASE][FAILED] - Test Cases/New_Client: Test Cases/New_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/Forms/CheckinButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at New_Client.run(New_Client:170)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584444505016.run(TempTestSuite1584444505016.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '169.254.115.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17252, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5acc52cd-c426-4e58-a923-7ddb7b39707b
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-03-17 14:28:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-17 14:28:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-17 14:28:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-17 14:28:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-17 14:28:31 - [TEST_STEP][PASSED] - navigateToUrl("https://data.kenyahmis.org:8400/openmrs/login.htm"): Navigate to 'https://data.kenyahmis.org:8400/openmrs/login.htm' successfully
+
+2020-03-17 14:28:33 - [MESSAGE][PASSED] - Navigate to 'https://data.kenyahmis.org:8400/openmrs/login.htm' successfully
+
+2020-03-17 14:28:33 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/userName"), "Admin"): Text 'Admin' is set on object 'Object Repository/Buttons/userName'
+
+2020-03-17 14:28:34 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Buttons/userName'
+
+2020-03-17 14:28:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-17 14:28:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-17 14:28:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Buttons/password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Buttons/password'
+
+2020-03-17 14:28:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Buttons/password'
+
+2020-03-17 14:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/loginButton")): Object: 'Object Repository/Buttons/loginButton' is clicked on
+
+2020-03-17 14:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/loginButton' is clicked on
+
+2020-03-17 14:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/homeButton")): Object: 'Object Repository/Buttons/homeButton' is clicked on
+
+2020-03-17 14:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/homeButton' is clicked on
+
+2020-03-17 14:28:42 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/Registrationbutton")): Object: 'Object Repository/Buttons/Registrationbutton' is clicked on
+
+2020-03-17 14:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/Registrationbutton' is clicked on
+
+2020-03-17 14:28:43 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/findCreate")): Object: 'Object Repository/Buttons/findCreate' is clicked on
+
+2020-03-17 14:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/findCreate' is clicked on
+
+2020-03-17 14:28:44 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/createNewPatient")): Object: 'Object Repository/Buttons/createNewPatient' is clicked on
+
+2020-03-17 14:28:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/createNewPatient' is clicked on
+
+2020-03-17 14:28:46 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/newReg")): Object: 'Object Repository/Buttons/newReg' is clicked on
+
+2020-03-17 14:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/newReg' is clicked on
+
+2020-03-17 14:28:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Buttons/clinicNo"), 0): Object 'Object Repository/Buttons/clinicNo' is clickable
+
+2020-03-17 14:28:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-17 14:28:48 - [MESSAGE][PASSED] - Object 'Object Repository/Buttons/clinicNo' is clickable
+
+2020-03-17 14:28:48 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-03-17 14:28:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-17 14:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/clinicNo"), "74000000"): Text '74000000' is set on object 'Object Repository/Buttons/clinicNo'
+
+2020-03-17 14:28:50 - [MESSAGE][PASSED] - Text '74000000' is set on object 'Object Repository/Buttons/clinicNo'
+
+2020-03-17 14:28:50 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-03-17 14:28:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-17 14:28:53 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/idNo"), "74000000"): Text '74000000' is set on object 'Object Repository/Buttons/idNo'
+
+2020-03-17 14:28:54 - [MESSAGE][PASSED] - Text '74000000' is set on object 'Object Repository/Buttons/idNo'
+
+2020-03-17 14:28:54 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-03-17 14:28:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-17 14:28:56 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/surName"), STOP_ON_FAILURE): Object: 'Object Repository/Buttons/surName' is clicked on
+
+2020-03-17 14:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/surName' is clicked on
+
+2020-03-17 14:28:56 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/surName"), "Joseph"): Text 'Joseph' is set on object 'Object Repository/Buttons/surName'
+
+2020-03-17 14:28:57 - [MESSAGE][PASSED] - Text 'Joseph' is set on object 'Object Repository/Buttons/surName'
+
+2020-03-17 14:28:57 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/firstName")): Object: 'Object Repository/Buttons/firstName' is clicked on
+
+2020-03-17 14:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/firstName' is clicked on
+
+2020-03-17 14:28:57 - [TEST_STEP][PASSED] - setText(findTestObject("Buttons/firstName"), "Otis"): Text 'Otis' is set on object 'Object Repository/Buttons/firstName'
+
+2020-03-17 14:28:58 - [MESSAGE][PASSED] - Text 'Otis' is set on object 'Object Repository/Buttons/firstName'
+
+2020-03-17 14:28:58 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/gender/femal")): Object: 'Object Repository/Buttons/gender/femal' is clicked on
+
+2020-03-17 14:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/gender/femal' is clicked on
+
+2020-03-17 14:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/idNo"), STOP_ON_FAILURE): Object: 'Object Repository/Buttons/idNo' is clicked on
+
+2020-03-17 14:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/idNo' is clicked on
+
+2020-03-17 14:29:00 - [TEST_STEP][PASSED] - click(findTestObject("date/birthDate")): Object: 'Object Repository/date/birthDate' is clicked on
+
+2020-03-17 14:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/date/birthDate' is clicked on
+
+2020-03-17 14:29:00 - [TEST_STEP][PASSED] - setText(findTestObject("date/birthDate"), "20-Feb-1990"): Text '20-Feb-1990' is set on object 'Object Repository/date/birthDate'
+
+2020-03-17 14:29:01 - [MESSAGE][PASSED] - Text '20-Feb-1990' is set on object 'Object Repository/date/birthDate'
+
+2020-03-17 14:29:01 - [TEST_STEP][PASSED] - click(findTestObject("date/birthDateDone")): Object: 'Object Repository/date/birthDateDone' is clicked on
+
+2020-03-17 14:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/date/birthDateDone' is clicked on
+
+2020-03-17 14:29:02 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-03-17 14:29:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-17 14:29:02 - [TEST_STEP][PASSED] - click(findTestObject("date/estimateAge")): Object: 'Object Repository/date/estimateAge' is clicked on
+
+2020-03-17 14:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/date/estimateAge' is clicked on
+
+2020-03-17 14:29:02 - [TEST_STEP][PASSED] - click(findTestObject("date/fromAgeButton")): Object: 'Object Repository/date/fromAgeButton' is clicked on
+
+2020-03-17 14:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/date/fromAgeButton' is clicked on
+
+2020-03-17 14:29:03 - [TEST_STEP][PASSED] - click(findTestObject("date/enterAge")): Object: 'Object Repository/date/enterAge' is clicked on
+
+2020-03-17 14:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/date/enterAge' is clicked on
+
+2020-03-17 14:29:04 - [TEST_STEP][PASSED] - setText(findTestObject("date/enterAge"), "15"): Text '15' is set on object 'Object Repository/date/enterAge'
+
+2020-03-17 14:29:04 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/date/enterAge'
+
+2020-03-17 14:29:04 - [TEST_STEP][PASSED] - click(findTestObject("date/submitEstAge")): Object: 'Object Repository/date/submitEstAge' is clicked on
+
+2020-03-17 14:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/date/submitEstAge' is clicked on
+
+2020-03-17 14:29:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-17 14:29:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-17 14:29:06 - [TEST_STEP][PASSED] - click(findTestObject("maritalStatus/mainStatus")): Object: 'Object Repository/maritalStatus/mainStatus' is clicked on
+
+2020-03-17 14:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/maritalStatus/mainStatus' is clicked on
+
+2020-03-17 14:29:07 - [TEST_STEP][PASSED] - click(findTestObject("maritalStatus/polygamous")): Object: 'Object Repository/maritalStatus/polygamous' is clicked on
+
+2020-03-17 14:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/maritalStatus/polygamous' is clicked on
+
+2020-03-17 14:29:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-17 14:29:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-17 14:29:09 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/occup/Occupation")): Object: 'Object Repository/Buttons/occup/Occupation' is clicked on
+
+2020-03-17 14:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/occup/Occupation' is clicked on
+
+2020-03-17 14:29:10 - [TEST_STEP][PASSED] - click(findTestObject("Buttons/occup/farmer")): Object: 'Object Repository/Buttons/occup/farmer' is clicked on
+
+2020-03-17 14:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Buttons/occup/farmer' is clicked on
+
+2020-03-17 14:29:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-17 14:29:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-17 14:29:13 - [TEST_STEP][PASSED] - click(findTestObject("education/education")): Object: 'Object Repository/education/education' is clicked on
+
+2020-03-17 14:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/education/education' is clicked on
+
+2020-03-17 14:29:13 - [TEST_STEP][PASSED] - click(findTestObject("education/secondarySchool")): Object: 'Object Repository/education/secondarySchool' is clicked on
+
+2020-03-17 14:29:14 - [MESSAGE][PASSED] - Object: 'Object Repository/education/secondarySchool' is clicked on
+
+2020-03-17 14:29:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-03-17 14:29:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-03-17 14:29:16 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Phone_Number")): Object: 'Object Repository/Registration/Forms/Phone_Number' is clicked on
+
+2020-03-17 14:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Phone_Number' is clicked on
+
+2020-03-17 14:29:16 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Phone_Number"), "0734567892"): Text '0734567892' is set on object 'Object Repository/Registration/Forms/Phone_Number'
+
+2020-03-17 14:29:16 - [MESSAGE][PASSED] - Text '0734567892' is set on object 'Object Repository/Registration/Forms/Phone_Number'
+
+2020-03-17 14:29:16 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Alt_Phone_Num")): Object: 'Object Repository/Registration/Forms/Alt_Phone_Num' is clicked on
+
+2020-03-17 14:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Alt_Phone_Num' is clicked on
+
+2020-03-17 14:29:17 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Alt_Phone_Num"), "0734621568"): Text '0734621568' is set on object 'Object Repository/Registration/Forms/Alt_Phone_Num'
+
+2020-03-17 14:29:17 - [MESSAGE][PASSED] - Text '0734621568' is set on object 'Object Repository/Registration/Forms/Alt_Phone_Num'
+
+2020-03-17 14:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Postal_Address")): Object: 'Object Repository/Registration/Forms/Postal_Address' is clicked on
+
+2020-03-17 14:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Postal_Address' is clicked on
+
+2020-03-17 14:29:18 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Postal_Address"), "4444 Kisumu"): Text '4444 Kisumu' is set on object 'Object Repository/Registration/Forms/Postal_Address'
+
+2020-03-17 14:29:18 - [MESSAGE][PASSED] - Text '4444 Kisumu' is set on object 'Object Repository/Registration/Forms/Postal_Address'
+
+2020-03-17 14:29:18 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Email")): Object: 'Object Repository/Registration/Forms/Email' is clicked on
+
+2020-03-17 14:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Email' is clicked on
+
+2020-03-17 14:29:19 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Email"), "val123@gmail.com"): Text 'val123@gmail.com' is set on object 'Object Repository/Registration/Forms/Email'
+
+2020-03-17 14:29:19 - [MESSAGE][PASSED] - Text 'val123@gmail.com' is set on object 'Object Repository/Registration/Forms/Email'
+
+2020-03-17 14:29:19 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/County")): Object: 'Object Repository/Registration/Forms/County' is clicked on
+
+2020-03-17 14:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/County' is clicked on
+
+2020-03-17 14:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/County_Name")): Object: 'Object Repository/Registration/Forms/County_Name' is clicked on
+
+2020-03-17 14:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/County_Name' is clicked on
+
+2020-03-17 14:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Sub_county")): Object: 'Object Repository/Registration/Forms/Sub_county' is clicked on
+
+2020-03-17 14:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Sub_county' is clicked on
+
+2020-03-17 14:29:21 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Sub_county"), "Kisumu"): Text 'Kisumu' is set on object 'Object Repository/Registration/Forms/Sub_county'
+
+2020-03-17 14:29:21 - [MESSAGE][PASSED] - Text 'Kisumu' is set on object 'Object Repository/Registration/Forms/Sub_county'
+
+2020-03-17 14:29:21 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/ward")): Object: 'Object Repository/Registration/Forms/ward' is clicked on
+
+2020-03-17 14:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/ward' is clicked on
+
+2020-03-17 14:29:22 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/ward"), "kajulu"): Text 'kajulu' is set on object 'Object Repository/Registration/Forms/ward'
+
+2020-03-17 14:29:22 - [MESSAGE][PASSED] - Text 'kajulu' is set on object 'Object Repository/Registration/Forms/ward'
+
+2020-03-17 14:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Location")): Object: 'Object Repository/Registration/Forms/Location' is clicked on
+
+2020-03-17 14:29:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Location' is clicked on
+
+2020-03-17 14:29:23 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Location"), "kajulu"): Text 'kajulu' is set on object 'Object Repository/Registration/Forms/Location'
+
+2020-03-17 14:29:23 - [MESSAGE][PASSED] - Text 'kajulu' is set on object 'Object Repository/Registration/Forms/Location'
+
+2020-03-17 14:29:23 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Sub_location")): Object: 'Object Repository/Registration/Forms/Sub_location' is clicked on
+
+2020-03-17 14:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Sub_location' is clicked on
+
+2020-03-17 14:29:24 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Sub_location"), "kajulu"): Text 'kajulu' is set on object 'Object Repository/Registration/Forms/Sub_location'
+
+2020-03-17 14:29:24 - [MESSAGE][PASSED] - Text 'kajulu' is set on object 'Object Repository/Registration/Forms/Sub_location'
+
+2020-03-17 14:29:24 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Village")): Object: 'Object Repository/Registration/Forms/Village' is clicked on
+
+2020-03-17 14:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Village' is clicked on
+
+2020-03-17 14:29:25 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Village"), "kajulu"): Text 'kajulu' is set on object 'Object Repository/Registration/Forms/Village'
+
+2020-03-17 14:29:25 - [MESSAGE][PASSED] - Text 'kajulu' is set on object 'Object Repository/Registration/Forms/Village'
+
+2020-03-17 14:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Landmark")): Object: 'Object Repository/Registration/Forms/Landmark' is clicked on
+
+2020-03-17 14:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Landmark' is clicked on
+
+2020-03-17 14:29:26 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Landmark"), "kajulu school"): Text 'kajulu school' is set on object 'Object Repository/Registration/Forms/Landmark'
+
+2020-03-17 14:29:26 - [MESSAGE][PASSED] - Text 'kajulu school' is set on object 'Object Repository/Registration/Forms/Landmark'
+
+2020-03-17 14:29:26 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Nearest_HC")): Object: 'Object Repository/Registration/Forms/Nearest_HC' is clicked on
+
+2020-03-17 14:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Nearest_HC' is clicked on
+
+2020-03-17 14:29:27 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Nearest_HC"), "kajulu hospital"): Text 'kajulu hospital' is set on object 'Object Repository/Registration/Forms/Nearest_HC'
+
+2020-03-17 14:29:28 - [MESSAGE][PASSED] - Text 'kajulu hospital' is set on object 'Object Repository/Registration/Forms/Nearest_HC'
+
+2020-03-17 14:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Next_Kin")): Object: 'Object Repository/Registration/Forms/Next_Kin' is clicked on
+
+2020-03-17 14:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Next_Kin' is clicked on
+
+2020-03-17 14:29:28 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/Next_Kin"), "katalon tester"): Text 'katalon tester' is set on object 'Object Repository/Registration/Forms/Next_Kin'
+
+2020-03-17 14:29:28 - [MESSAGE][PASSED] - Text 'katalon tester' is set on object 'Object Repository/Registration/Forms/Next_Kin'
+
+2020-03-17 14:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Rlnship_kin")): Object: 'Object Repository/Registration/Forms/Rlnship_kin' is clicked on
+
+2020-03-17 14:29:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Rlnship_kin' is clicked on
+
+2020-03-17 14:29:29 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/Rlnship")): Object: 'Object Repository/Registration/Forms/Rlnship' is clicked on
+
+2020-03-17 14:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/Rlnship' is clicked on
+
+2020-03-17 14:29:30 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/NextKin_Contact")): Object: 'Object Repository/Registration/Forms/NextKin_Contact' is clicked on
+
+2020-03-17 14:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/NextKin_Contact' is clicked on
+
+2020-03-17 14:29:30 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/NextKin_Contact"), "0763567145"): Text '0763567145' is set on object 'Object Repository/Registration/Forms/NextKin_Contact'
+
+2020-03-17 14:29:31 - [MESSAGE][PASSED] - Text '0763567145' is set on object 'Object Repository/Registration/Forms/NextKin_Contact'
+
+2020-03-17 14:29:31 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/NextKin_Address")): Object: 'Object Repository/Registration/Forms/NextKin_Address' is clicked on
+
+2020-03-17 14:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/NextKin_Address' is clicked on
+
+2020-03-17 14:29:32 - [TEST_STEP][PASSED] - setText(findTestObject("Registration/Forms/NextKin_Address"), "4444 kisumu"): Text '4444 kisumu' is set on object 'Object Repository/Registration/Forms/NextKin_Address'
+
+2020-03-17 14:29:32 - [MESSAGE][PASSED] - Text '4444 kisumu' is set on object 'Object Repository/Registration/Forms/NextKin_Address'
+
+2020-03-17 14:29:32 - [TEST_STEP][PASSED] - click(findTestObject("Registration/Forms/SubmitRegistration")): Object: 'Object Repository/Registration/Forms/SubmitRegistration' is clicked on
+
+2020-03-17 14:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Forms/SubmitRegistration' is clicked on
+
+2020-03-17 14:29:33 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2020-03-17 14:29:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-17 14:29:33 - [TEST_STEP][FAILED] - click(findTestObject("Registration/Forms/CheckinButton")): Unable to click on object 'Object Repository/Registration/Forms/CheckinButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/Forms/CheckinButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at New_Client.run(New_Client:170)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584444505016.run(TempTestSuite1584444505016.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '169.254.115.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17252, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5acc52cd-c426-4e58-a923-7ddb7b39707b
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1580188445027.run(Script1580188445027.groovy:170)
+	... 13 more
+)
+
+2020-03-17 14:29:57 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-03-17 14:29:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Registration/Forms/CheckinButton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/Forms/CheckinButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at New_Client.run(New_Client:170)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584444505016.run(TempTestSuite1584444505016.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '169.254.115.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17252, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5acc52cd-c426-4e58-a923-7ddb7b39707b
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1580188445027.run(Script1580188445027.groovy:170)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-03-17 14:28:26 - [TEST_CASE][FAILED] - Test Cases/New_Client: Test Cases/New_Client FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Registration/Forms/CheckinButton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at New_Client.run(New_Client:170)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584444505016.run(TempTestSuite1584444505016.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-VS7DR70', ip: '169.254.115.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17252, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5acc52cd-c426-4e58-a923-7ddb7b39707b
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[1]/table/tbody/tr/td[2]/div[1]/button/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-17 14:28:26 - [TEST_SUITE][INCOMPLETE] - New_clientScenario: null]]></system-out>
+      <system-err><![CDATA[2020-03-17 14:28:26 - [TEST_SUITE][INCOMPLETE] - New_clientScenario: null]]></system-err>
+   </testsuite>
+</testsuites>
